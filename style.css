@@ -186,6 +186,64 @@ footer{
 
 
 
+@media (max-width: 768px){
+
+  /* HEADER */
+  .navbar{
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 12px;
+  }
+
+  .navbar img{
+    width: 80px;
+    height: 80px;
+    margin: auto;
+  }
+
+  .logo-text{
+    font-size: 20px;
+    line-height: 1.4;
+  }
+
+  .right-header{
+    margin-top: 0;
+  }
+
+  /* TOP IMAGE + VIDEO */
+  #bursh img,
+  #bursh video{
+    width: 200px;
+    height: 200px;
+  }
+
+  /* GALLERY */
+  #all{
+    gap: 12px;
+    padding: 10px;
+  }
+
+  #all img,
+  #all video{
+    width: 160px;
+    height: 160px;
+  }
+
+  /* FOOTER */
+  footer{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  /* REMOVE AGGRESSIVE SCALE */
+  #bursh img:hover,
+  #bursh video:hover,
+  #all img:hover,
+  #all video:hover{
+    transform: none;
+  }
+}
+
 
 
 
