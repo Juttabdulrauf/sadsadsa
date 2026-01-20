@@ -22,7 +22,7 @@ header{
 /* Left img | Center text | Right img + button */
 .navbar{
     display: grid;
-    grid-template-columns: auto 1fr auto;
+    grid-template-columns: auto 1fr auto; 6
     align-items: center;
     max-width: 1200px;
     margin: auto;
@@ -111,10 +111,13 @@ header{
 }
 
 /* Click effect for upper picks */
-#bursh img:active,
-#bursh video:active{
-    transform: scale(1.12);
+@media (max-width: 768px){
+    #bursh img:active,
+    #bursh video:active{
+        transform: scale(1.03);
+    }
 }
+
 /* ================= GALLERY (ROWS) ================= */
 /* sab images + videos aik hi row mein */
 
@@ -147,10 +150,13 @@ header{
 }
 
 /* Click effect for lower picks */
-#all img:active,
-#all video:active{
-    transform: scale(1.12);
+@media (max-width: 768px){
+    #all img:active,
+    #all video:active{
+        transform: scale(1.02); /* safe */
+    }
 }
+
 
 /* ================= FOOTER ================= */
 
@@ -177,6 +183,7 @@ footer{
         font-size: 22px;
     }
 }
+
 
 
 
