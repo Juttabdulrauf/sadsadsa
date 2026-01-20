@@ -27,6 +27,7 @@ header{
     max-width: 1200px;
     margin: auto;
     gap: 20px;
+    width:100vw;
 }
 
 .navbar img{
@@ -269,6 +270,7 @@ footer{
     margin-top: 0;
   }
 }
+
 
 
 
