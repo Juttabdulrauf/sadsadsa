@@ -9,6 +9,7 @@ body{
     background: #f4f6f8;
     color: #222;
     width: 100vw;
+    overflow-x: hidden;
 }
 
 /* ================= HEADER ================= */
@@ -171,4 +172,5 @@ footer{
         font-size: 22px;
     }
 }
+
 
