@@ -8,6 +8,7 @@
 body{
     background: #f4f6f8;
     color: #222;
+    width: 100vw;
 }
 
 /* ================= HEADER ================= */
@@ -170,3 +171,4 @@ footer{
         font-size: 22px;
     }
 }
+
