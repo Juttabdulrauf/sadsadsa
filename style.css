@@ -130,6 +130,8 @@ header{
 
 #all img,
 #all video{
+    max-width: 100%;
+    height: auto;
     width: 220px;
     height: 220px;
     object-fit: cover;
@@ -172,5 +174,6 @@ footer{
         font-size: 22px;
     }
 }
+
 
 
